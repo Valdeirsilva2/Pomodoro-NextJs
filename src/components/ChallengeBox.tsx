@@ -14,6 +14,7 @@ export function ChallengeBox() {
 
     function handleChallengeFailed() {
         resetChallenge();
+        resetCountdown();
     }
     return (
         <div className={styles.challengeBoxContainer}>
